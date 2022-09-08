@@ -1,0 +1,26 @@
+ReadMe
+
+#Kollision, testa INtersect-metoden från java istället.
+
+
+#Blir knas när jag anänder hans "förbättrade colissions" i video 23 så tog bort för y (där den fuckar, är ifyllt i grön comment)
+
+
+SoundTest är ett spel I sig själv. Det är mitt första projekt.
+
+
+
+Spelet har olika states, t ex meny eller spel.
+vi har entitites som är allt förutom tiles. Entity är abstract klass.
+
+Vår launcher kör spelet.
+
+State är abstract och styr våra states.
+
+
+Worlds-matris-filen tänk på om vi har första raden 5 7, då måste vi se till att matrisen fyller ut minst 5 x 7 platser
+
+5  7 , width and height of world
+0  0 , player position x och y koord 
+resten är position för tiles och deras värde vilken av dem det är
+ 
